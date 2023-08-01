@@ -1,25 +1,77 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Fontelogo';
+  src: url(../fonts/FontsFree-Net-Montserrat-Medium-1.ttf);
 
-body{
-    
-    color: rgba(200,200,200,1);
 }
+body 
+  {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(rgb(10,10,40),rgb(10,20,60));
+  }
+  header ul#head_ul li a 
+  {
+    color:aliceblue;
+  }
+    header ul#head_ul li a:hover 
+      {
+        color: #a0a7ae;
+      }
+        header ul#head_ul li#comprar_li:hover a
+          {
+            color:#ffffff;
+          }
+  section#corpo {
+    display: block;
+    position: relative;
+    width: 85%;
+    margin-left: 7%;
+  }
+  h2.h2principal 
+  {
+    color:#00aaff;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Fontelogo', sans-serif;
+  }
+  h2.h2tema
+  {
+    color:#00aaff;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Fontelogo', sans-serif;
+    padding-top: 13px;
+    padding-right: 15px;
+  }
 
   p{
     text-align:justify; 
     text-indent: 50px;
+    font-size: 20px;
+  }
+  p.txt1 {
+    font-size: 20px;
+    padding-right: 10px;
 
   }
+
 
   /*Formatação de imagens com legendas*/
 
   figure.foto-legenda {
+      margin-top: 20px;
+      margin-left: 10%;
       position: relative;
-      border: 8px solid red;
+      width: 80%;
+      border: 8px solid aliceblue;
+      border-radius: 1em;
       box-shadow: 1px 1px 4px black;
   }
 
   figure.foto-legenda img {
+  border-radius: .90em;
   width: 100%;
   height: 100%;
 
@@ -28,7 +80,7 @@ body{
     opacity: 0%;
     position: absolute;
     top: 0px;
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(50,50,50,.5);
     color: black;
     width: 100%;
     height: 100%;
@@ -36,8 +88,74 @@ body{
     box-sizing: border-box;
     transition: opacity 1s;
   }
-
+  figure.foto-legenda figcaption h1{
+    padding-top: 50px;
+    text-indent: 40px;
+    font-size: 20pt;
+    font-family: 'Fontelogo', sans-serif;
+  }
+  figure.foto-legenda figcaption h3{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 15pt;
+    font-family: 'Fontelogo', sans-serif;
+  }
   figure.foto-legenda:hover figcaption {
     opacity: 1;
 
   }
+  #mini-banners{
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 4em;
+    margin-left: 2em;
+    width: 99%;
+}
+
+#mini-banners .card{
+    background:radial-gradient(rgb(10,10,40),rgb(10,20,60));
+    padding: 2em 0.3em;
+    border-radius: 1em;
+    
+}
+#mini-banners i{
+    color: aliceblue;
+    font-size: 4em;
+}
+#mini-banners .card-title{
+    color: aliceblue;
+    margin-bottom: 1.5em;
+
+}
+#mini-banners .card-text{
+    font-size: 15pt;
+    color:aliceblue;
+}
+
+#mini-banners .btn{
+    margin-top: 1.5em;
+    padding: 0.6em 1.2em ;
+}
+  footer#rodape {
+    clear: both;
+    border-top: #606060 1px solid;
+  }
+  footer#rodape h4 {
+    font-size: 12pt;
+    text-align: center;
+  }
+  footer#rodape a {
+    color: aliceblue;
+  }
+  .rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
