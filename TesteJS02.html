@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8"/>
+        <title>Teste do Js</title>
+        <script>
+            function supersonic()
+            {
+                document.getElementById("sonic").src ="media/sonic/7b3363b6-e24d-4e7a-98ee-c165a9605aba.jpeg";
+            }
+            function darksonic() 
+            {
+                document.getElementById("sonic").src ="media/sonic/d49f56c2-9e39-4c2b-ba21-609d920f7635.jpeg";
+            }
+            function destransformar()
+            {
+                document.getElementById("sonic").src ="media/sonic/TheFrontiersSonic.webp";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Transforma-te</h1>
+        <img src="media/sonic/TheFrontiersSonic.webp" id="sonic" onmousemove="supersonic()" onmouseout="destransformar()" onclick="darksonic()"/>
+        <style> img {
+            margin-left: 20px;
+            width: 50%;
+            height: 90%;
+        }
+        </style>
+    </body>
+</html>
