@@ -1,61 +1,201 @@
 
 <html>
-<head>
-  <meta charset="UTF-8"/>
-  <title>Francis's stuff</title>
-  <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
-</head>
-<body>
-<div id="interface">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER STAR</title>
+    <link rel="stylesheet" href="Cursos/bootstrap-icons-1.10.3/bootstrap-icons/bootstrap-icons.css">
+    
+    <!-- Bootstrap core CSS -->
+<link href="../Curso HTML5 Guanabara/Cursos/bootstrap-5.0.2-examples/bootstrap-5.0.2-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+          
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-  <header id="cabecalho">
-    <hgroup>
-      <h1>My Stuff</h1> 
-      <h2>Random things (Just look!)</h2>
-    </hgroup>
-
-    <img src="media/logo.png">
-    <br/>
-<nav>
-  <h1>Menu Principal</h1>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="Símbolos Especiais.html" >Símbolos Especiais</a></li>
-    <li><a href="fotos.html">Fotos</a></li>
-    <li><a href="multimedia.html">Multimídia</a></li>
-    <li><a href="fale-comigo.html">Fale Comigo</a></li>
-  </ul>
-</nav>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+  </head>
+  <body>
+     <header class="p-3 bg-dark text-white">
+      <div class="container">
+          <div class="d-flex flex-wrap justify-content-center">
+        <a class="d-flex align-items-center mb-2 mb-lg-0 me-md-auto text-white text-decoration-none">
+          <img src="../Curso HTML5 Guanabara/media/Yin-Yang-Planet-Logo-fixed-cropped.png" width="28px" height="28px" alt="" srcset="">
+          <span class="fs-4">CYBER STAR</span>
+        </a>
+  
+        <ul class="nav nav-pills" id="head_ul">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="multimedia.html" class="nav-link">Multimidia</a></li>
+          <li class="nav-item"><a href="fotos.html" class="nav-link">Fotos</a></li>
+          <li class="nav-item"><a href="fale-comigo.html" class="nav-link">Contacte-nos</a></li>
+          <li id="comprar_li" class="nav-item"><a href="comprar.html" class="nav-link active" aria-current="page">Comprar</a></li>
+        </ul>
+      </div>
     </header>
-    <hgroup>
-    <h3>Vida Pessoal &nbsp; > &nbsp;Inovações</h3>
-    <h1>Saiba tudo sobre o Star Architecture</h1>
-    <h2>Por Francis Pemessa</h2>
-    <h3>Atualizado em 12/04/2023</h3>
-    </hgroup>
-    <h2 style="text-align: center">O que é</h2>
-    <p>O <span style="font-weight: 900"> Star Architecture </span>é um modelo de casas modernas que visa o máximo 
-    conforto e aspecto moderno para a sua casa e família com design <i>futurísticos e inovadores</i> com um toque de beleza contemporânea</p>
+      <section id="corpo">
+        <h2 class="h2principal">O QUE É?</h2>
+          <p class="txt1">A <span style="font-weight: 600"> CYBER STAR </span>é uma empresa que tem como objetivo lançar a sua empresa no mundo digital
+          e com a ajuda do nosso <i>Team</i> trazer a luz a sua empresa no ciberespaço</p>
 
-<figure class="foto-legenda">
-  <img src="media/fundo4.jpg">
-  <figcaption>
-    <h1>Urso Negro</h1>
-    <h3>Nesta bela foto podemos ver a imagem de um majestoso urso negro em estonteante fundo preto</h3>
+        <figure class="foto-legenda">
+          <img src="media/0e2ce43f-b38c-48d3-9ddd-8c9cda13f112 (2).png">
+            <figcaption>
+              <h1>O Seu Site Dos Sonhos</h1>
+              <h3>O site que você imaginou nós podemos trazê-lo a vida exatamente como o esperado ou até melhor do que o pensado<br/>E a parte que você mais gosta é que será em um curto período de tempo</h3>
 
-</figcaption>
-</figure>
-<h2>Data de lançamento</h2>
-<p>Não há uma data específica e oficial para o modelo de arqui&shy;tec&shy;tura de "super<wbr/>-casas"</p>
+            </figcaption>
+        </figure>
+        <h2 class="h2tema">Nossos Serviços</h2>
+        <div class="col-12 col-md-10 offset-md-1"
+        id="mini-banners">
 
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card text-center">
+                    <i class="bi-box bi primary-color"></i>
+                    <div class="card-body">
+                        <h5 class="card-title primary-color">Full-Stack</h5>
+                        <p class="card-text secundary-color">
+                            Criação de sites completos e de qualidade personalizados.
+                        </p>
 
+                        <a href="#" class="btn btn-dark">Saber mais</a>
+                    
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card text-center">
+                    <i class="bi-layers bi primary-color"></i>
+                    <div class="card-body">
+                        <h5 class="card-title primary-color">Front-End</h5>
+                        <p class="card-text secundary-color">
+                            Design de sites e seu comportamento.
+                        </p>
 
-<p>Minha conta do <a href="https://github.com/FrancisP100" target="_blank">Github</a></p>
+                        <a href="#" class="btn btn-dark">Saber mais</a>
+                    
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card text-center">
+                    <i class="bi-tools bi primary-color"></i>
+                    <div class="card-body">
+                        <h5 class="card-title primary-color">Assistência Técnica</h5>
+                        <p class="card-text secundary-color">
+                            Manutenção de sites e correção de bugs.
+                        </p>
 
-Copyright 2023 - by Francis Pemessa
-Facebook | Instagram
-</div>
+                        <a href="#" class="btn btn-dark">Saber mais</a>
+                    
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card text-center">
+                  <i class="bi-database-add bi primary-color"></i>
+                  <div class="card-body">
+                      <h5 class="card-title primary-color">Back-End</h5>
+                      <p class="card-text secundary-color">
+                          Criação de banco de dados e ligação do front ao back-end.
+                      </p>
 
+                      <a href="#" class="btn btn-dark">Saber mais</a>
+                  
+                  
+                  </div>
+                  
+              </div>
+          </div>
 
-</body>
+        </div>
+
+    
+        </div>
+       </div>
+          <p>Para além da surpresa do áudio o site também conta com alguns <a href="http://www.youtube.com" target="_blank">vídeos</a></p>
+        <h2 class="h2tema">Porquê escolhernos</h2>
+          <div class="container px-4 py-5" id="custom-cards">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('media/f34bc67c-04a2-4279-b8e8-6f516f71685a.jpeg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Poupe Dinheiro</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <i class="bi-cash-coin bi primary-color"></i>
+                      </li>
+                      <li class="d-flex align-items-flex-end me-1">
+                        <svg class="bi me-2" width="1em" height="1em"></svg>
+                        <small>Económico</small>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('media/7fe24475-ba5b-4962-aeca-e446f15dc480.jpeg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Poupe Tempo</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <i class="bi-clock-history bi primary-color"></i>
+                      </li>
+                      <li class="d-flex align-items-flex-end me-1">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Velocidade</small>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('media/aaae1af6-b174-45bb-aa29-a5f2d0dda04f.jpeg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Somos a Solução</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <i class="bi-award bi primary-color"></i>
+                      </li>
+                      <li class="d-flex align-items-flex-end me-1">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Ferramentas Poderosas</small>
+                      </li> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <h2 class="h2tema">Data de lançamento</h2>
+          <h2 style=" padding-right: 10px;">Não há uma data específica e oficial para o lançamento da empresa CYBER STAR "A luz do mundo digital"</h2>
+      </section>
+      <footer id='rodape'>
+        <h4>Copyright&copy; 2023 - by Francis Pemessa<br/>
+          <a href="http://facebook.com/FranciscoPemessa" target="_blank">Facebook</a> | 
+          <a href="http://instagram.com/francisp100" target="_blank">Instagram</a></h4>
+      </footer>
+    </div>
+  </body>
 </html>
